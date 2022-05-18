@@ -20,7 +20,7 @@ The data was split into training and test sets before any data cleaning and proc
 
 ## Modeling
 
-The models I used were appropriate for a categorical target (two targets, actually). Because I had both seasonal flu and H1N1 flu as target variables, the models had to run for each variable.  Tuned models used GridSearchCV to isolate the best hyperparameters. The models I used were:
+The models I used were appropriate for a categorical target (two targets, actually). Because I had both seasonal flu and H1N1 flu as target variables, the models had to run for each variable. Tuned models used GridSearchCV to isolate the best hyperparameters. The models I used were:
 
 - Logistic Regression
 - Naive Bayes
